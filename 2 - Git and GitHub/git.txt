@@ -44,3 +44,12 @@ git branch -a
 - Switch to a different branch
 git switch "branch name" Note: may not work for older versions
 git checkout "branch name"
+
+- Clear terminal commands
+clear
+
+- Merge feature branch to master/main branch
+git merge "branch name"
+
+- Delete branch
+git branch -d "branch name"
