@@ -1,0 +1,44 @@
+/* element selector */
+span{
+    color: green;
+    font-size: 20px;
+}
+
+/* class selector */
+.intro-paragraphs{
+    color: red;
+    font-size: 25px;
+}
+
+/* id selector */
+#m
+ain-heading{
+    color: blue;
+    font-size: 10px;
+}
+
+/* universal selector  */ /* asterisk = entire html */
+*{
+    font-weight: lighter;
+}
+
+/* grou[ selector */
+h1, h2, .about-content{
+    text-decoration: underline black;
+}
+
+/* descendant selector */
+.article-container p{
+    background-color: violet;
+}
+
+/* pseudo classes */
+a:hover{
+    color: darkred;
+}
+a:active{
+    background-color: black;
+}
+a:visited{
+    color: green;
+}
